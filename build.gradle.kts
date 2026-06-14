@@ -112,6 +112,13 @@ neoForge {
 
 repositories {
     maven {
+        name = "vanutp"
+        url = uri("https://maven.vanutp.dev/main")
+        content {
+            includeGroupAndSubgroups("org.sinytra.adapter")
+        }
+    }
+    maven {
         name = "Sinytra"
         url = uri("https://maven.su5ed.dev/releases")
         content {
